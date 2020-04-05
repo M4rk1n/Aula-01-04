@@ -1,13 +1,13 @@
 t = int(input("Qual tabuada você deseja saber? "))
-num = 0 
+
 
 enum = 0
 if t < 0:
     print("O programa não faz contas negativas!")
 else:    
-  while num <= 10:
+  while enum <= 10:
     
     print(f'{t} x {enum} = {t * enum}')
-    num = num + 1
+
     enum = enum + 1
     
